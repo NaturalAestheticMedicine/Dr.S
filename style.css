@@ -201,46 +201,23 @@ form button {
 .subscribe button:hover {
   background-color: #f5f5f5;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Articles - NAM by Dr. S</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Featured Articles</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="articles.html">Articles</a>
-      <a href="community.html">Join the Community</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+.article-preview {
+  background-color: #fff8f6;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 6px;
+}
 
-  <main>
-    <section>
-      <p>
-        Explore our latest insights and professional reflections on natural aesthetics, ethics, and evidence-based cosmetic medicine.
-      </p>
-    </section>
+.article-preview h2 {
+  color: #800000;
+  margin-top: 0;
+}
 
-    <section class="article-preview">
-      <h2>“Perception Drift” and Lips</h2>
-      <p>
-        Why overfilled lips are often the result of perception drift — not body dysmorphia. Learn how beauty standards subtly shift, and what we can do to prevent overtreatment.
-      </p>
-      <a href="perception-drift-lips.html" class="btn">Read More</a>
-    </section>
+.article-preview p {
+  color: #333;
+}
 
-    <!-- Shto artikuj të tjerë këtu në të njëjtën formë -->
-  </main>
-
-  <footer>
-    <p>&copy; 2025 NAM by Dr. S</p>
-  </footer>
-</body>
-</html>
+.article-preview .btn {
+  margin-top: 10px;
+}
